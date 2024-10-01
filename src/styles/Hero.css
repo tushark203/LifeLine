@@ -1,0 +1,74 @@
+.hero-cont{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:white;
+    /* border: 3px solid black; */
+   
+}
+
+
+.hero-bg-img{
+    width: 100%;
+    height: 100%;
+ 
+   /* border: 1px solid black; */
+
+}
+
+.hero-logo{
+    position: absolute;
+    font-size: 7rem;
+    font-weight: 500;
+    top:10rem;
+    left: 5rem;
+    color:white;
+  
+    /* z-index: 99; */
+}
+.water-drop{
+    position: absolute;
+    transform: scale(7);
+    left: 50rem;
+    color: crimson;
+}
+
+.wd-2{
+    top: 13rem;
+    left: 65rem;
+
+}
+.wd-3{
+    top: 3rem;
+    left: 60rem;
+
+}
+.hero-logo-2{
+
+    position: absolute;
+    left: 15rem ;
+}
+.hero-buttons{
+    position: absolute;
+    top: 40rem;
+    left: 55rem;
+    width: 40%;
+    height: 3rem;
+}
+.hero-buttons a{
+    border-radius: 20px;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color:crimson;
+    color: white;
+    /* border: 1px solid crimson; */
+}
+
+.hero-buttons a:hover{
+    border:none;
+    background-color: rgba(220, 20, 60,0.8 );
+ 
+}

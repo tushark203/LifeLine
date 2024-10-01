@@ -1,0 +1,23 @@
+.footer{
+    padding: 2rem 3rem;
+    background: maroon;
+    color: white;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+svg{
+    color:white;
+    margin: 0.5rem;
+}
+
+
+
+

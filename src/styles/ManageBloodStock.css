@@ -1,0 +1,59 @@
+.admin-manage-blood{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 4rem;
+    left:18%;
+
+}
+
+.update-stock{
+    width: 60%;
+    height: 10%;
+   margin-left: 20%;
+   display: flex;
+   align-items: center;
+   
+
+}
+
+.update-stock-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.admin-blood-grp label{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: 2rem;
+    color: maroon;
+}
+.admin-blood-grp select{
+    border: 2px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.admin-blood-grp input{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.update-stock-button {
+  
+    color: white;
+    border: none;
+     padding: 0.5rem;
+     cursor: pointer;
+     border-radius: 4px;
+     background-color: maroon;
+}
+
+.update-stock-button:hover{
+    background-color: rgba(128, 0, 0,0.8);
+}
+

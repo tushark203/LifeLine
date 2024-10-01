@@ -1,0 +1,60 @@
+.donate-blood-box{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 30%;
+    top:10%;
+   
+}
+.db-heading{
+    height: 10%;
+    margin: 2rem 0 2rem 15rem;
+    font-size: 2.5rem;
+  
+    color: maroon;
+ 
+}
+.donate-blood-form{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25) ;
+}
+.db-input{
+    width:100%;
+    display: flex ;
+    margin-bottom: 2rem;
+
+}
+.db-input label{
+    width: 30%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: maroon;
+}
+
+.db-input  input{
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+
+  }
+
+  .donate-blood-button{
+    width: 14rem;
+    color: white;
+    border: none;
+    margin-top: 4rem;
+    margin-left: 8rem;
+     padding: 0.5rem;
+     cursor: pointer;
+     background-color: maroon;
+   }
+   .donate-blood-button:hover{
+     background-color: rgba(128, 0, 0,0.8);
+   }

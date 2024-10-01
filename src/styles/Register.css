@@ -1,0 +1,104 @@
+.register-cont{
+    width: 100%;
+    height: 100vh;
+    padding-top: 4rem;
+    background-color: rgba(220, 20, 60 ,0.1);
+}
+
+.register-head-div{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 8rem;
+    color: maroon;
+    /* border: 1px solid black; */
+   
+}
+.register-headings h1{
+   font-size: 2.5rem;
+    margin-left: 12rem;
+}
+.register-headings span{
+    margin-left: 12rem;
+}
+.reg-bdonerBtn{
+    text-decoration: none;
+   display: flex;
+   align-items: center;
+    height: 70%;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-right: 12rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 4px;
+    background-color: maroon;
+    border: 1px solid black;
+}
+.reg-bdonerBtn:hover{
+    background-color: rgba(128, 0, 0,0.8);
+}
+.register-form-box{
+    width: 80%;
+    height: 70%;
+    margin: 0 8rem;
+    padding: 3rem;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25) ;
+}
+
+.register-form
+{
+    width: 100%;
+    height: auto;
+    height: 100%;
+  
+    /* border: 1px solid black; */
+}
+.register-row{
+    width:100%;
+   display: flex ;
+   margin-bottom: 2rem;
+    /* border: 1px solid black; */
+}
+.register-col{
+    width:50%;
+    display: flex;
+
+}
+.register-col label{
+  width: 30%;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: maroon;
+    /* border: 1px solid black; */
+}
+.register-col input{
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+      /* border: 1px solid black; */
+  }
+  .register-col select{
+    border: 2px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+
+  .register-button{
+   width: 14rem;
+   color: white;
+   border: none;
+   margin-left: 26rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: maroon;
+  }
+  .register-button:hover{
+    background-color: rgba(128, 0, 0,0.8);
+  }

@@ -1,0 +1,64 @@
+.donor-list{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 8rem;
+    left: 19%;
+    overflow-y: scroll;
+
+}
+
+.donor-list-table{
+    border-collapse: collapse;
+    width: 100%;
+ 
+}
+.donor-list-table th,
+.donor-list-table td {
+  border: 1px solid black;
+  white-space: nowrap; 
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  /* align-items: center;  */
+}
+
+.donor-list-table th {
+    color: black;
+   
+    margin-top: 20px;
+    z-index: 1; 
+    background-color: maroon;
+    color: white;
+    font-size: 1.2rem; 
+    text-align: center; 
+ 
+  }
+
+  .donor-list-table tr{
+    font-size: 1.2rem;
+    background-color: white;
+    color: maroon;
+  }
+
+
+.donor-list-table tr:hover{
+    cursor: pointer;
+ 
+    background-color: rgba(128, 0, 0,0.1);
+  }
+
+  .admin-req-del-btn{
+    border: none;
+    border-radius: 4px;
+    background-color: maroon;
+    color: white;
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .admin-req-del-btn:hover{
+    cursor: pointer;
+    background-color: rgba(128, 0, 0,0.6);
+  }
